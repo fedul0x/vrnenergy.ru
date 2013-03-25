@@ -1,0 +1,39 @@
+div.data-block-1 {
+width: 250px;
+background: #564739;
+float: left;
+position: relative;
+top: 540px;
+left: 350px;
+z-index: 999;
+}
+
+div.data-block-2 {
+width: 250px;
+background: #886d57;
+float: left;
+position: relative;
+top: 540px;
+left: 350px;
+z-index: 999;
+}
+
+div.data-block-3 {
+width: 250px;
+background: #fff;
+float: left;
+position: relative;
+top: 540px;
+left: 350px;
+z-index: 999;
+}
+
+p.title-black{
+font-family: 'arial';
+color: #886d57
+}
+
+p.title-white{
+font-family: 'arial';
+color: #fff
+}
