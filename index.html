@@ -50,109 +50,103 @@ $(function(){
         });
         </script>
         <style rel="stylesheet" type="text/css">
-body {
-        background: url(images/krivichi.gif) 15% 0% no-repeat;
-        background-size: 240px; 
+header{
+            width:800px;
+            float:none;
+            margin:auto;
         }
+            div.logo{
+                float:left;
+                height:100px;
+                width:100px;
+            }
+            div#main-menu{
+                float:right;
+                padding-top:40px;
+                padding-bottom:40px;
+            }
         </style>
     </head>
     <body class="loading">
-        <div class="data-block-1">
-            <center>
-                Новости
-            </center>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-        <div class="data-block-2">
-            <center class="title-white">
-                ЧАСЫ РАБОТЫ
-            </center>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-        </div>
-        <div class="data-block-3">
-            <center class="title-black">
-                КОНТАКТНАЯ ИНФОРМАЦИЯ
-            </center>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-        </div>
-        <ul class="dropdown dropdown-horizontal">
-            <li>
-                <a href="./" class="dir">КРИВИЧИ</a>
-                <ul>
+        <header>
+            <div class="logo">
+                <a href="/"><img src="./images/logo.png" alt="КРИВИЧИ"></a>
+            </div>
+            <div id="main-menu">
+                <ul class="dropdown dropdown-horizontal">
                     <li>
-                        <a href="./">О нас</a>
+                        <a href="./" class="dir">КРИВИЧИ</a>
+                        <ul>
+                            <li>
+                                <a href="./">О нас</a>
+                            </li>
+                            <li>
+                                <a href="./">События</a>
+                            </li>
+                            <li>
+                                <a href="./">Партнёры</a>
+                            </li>
+                            <li>
+                                <a href="./">Лицензия и сертификат</a>
+                            </li>
+                            <li>
+                                <a href="./">Контакты</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="./">События</a>
+                        <a href="./" class="dir">ПРОЕКТЫ</a>
+                        <ul>
+                            <li>
+                                <a href="./">Наши проекты</a>
+                            </li>
+                            <li>
+                                <a href="./">О работе</a>
+                            </li>
+                            <li>
+                                <a href="./">О проектах</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="./">Партнёры</a>
+                        <a href="./" class="dir">УСЛУГИ</a>
+                        <ul>
+                            <li>
+                                <a href="./">Энергоаудит</a>
+                            </li>
+                            <li>
+                                <a href="./">Инновационные разработки</a>
+                            </li>
+                            <li>
+                                <a href="./">Мероприятия по энергосбережению</a>
+                            </li>
+                            <li>
+                                <a href="./">Проектирование</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="./">Лицензия и сертификат</a>
-                    </li>
-                    <li>
-                        <a href="./">Контакты</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="./" class="dir">ПРОЕКТЫ</a>
-                <ul>
-                    <li>
-                        <a href="./">Наши проекты</a>
-                    </li>
-                    <li>
-                        <a href="./">О работе</a>
-                    </li>
-                    <li>
-                        <a href="./">О проектах</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="./" class="dir">УСЛУГИ</a>
-                <ul>
-                    <li>
-                        <a href="./">Энергоаудит</a>
-                    </li>
-                    <li>
-                        <a href="./">Инновационные разработки</a>
-                    </li>
-                    <li>
-                        <a href="./">Мероприятия по энергосбережению</a>
-                    </li>
-                    <li>
-                        <a href="./">Проектирование</a>
+                        <a href="./" class="dir">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</a>
+                        <ul>
+                            <li>
+                                <a href="./">Полезные статьи</a>
+                            </li>
+                            <li>
+                                <a href="./">Полезные ссылки</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
-            </li>
-            <li>
-                <a href="./" class="dir">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</a>
-                <ul>
-                    <li>
-                        <a href="./">Полезные статьи</a>
-                    </li>
-                    <li>
-                        <a href="./">Полезные ссылки</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <div id="container" class="cf">
+            </div>
+        </header>
+        <div class="cf">
             <div id="main" role="main">
                 <div class="flexslider">
                     <ul class="slides">
                         <li>
                             <img src="images/1.jpg">
                             <div class="dat1">
-                                ?????????
+                                this is text
                             </div>
                         </li>
                         <li>
@@ -167,6 +161,30 @@ body {
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="data-block-1">
+            <p class='data-title-white'>
+                НОВОСТИ
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+        <div class="data-block-2">
+            <p class="data-title-white">
+                ЧАСЫ РАБОТЫ
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+        <div class="data-block-3">
+            <p class="data-title-black">
+                КОНТАКТНАЯ ИНФОРМАЦИЯ
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
         </div>
     </body>
 </html>
