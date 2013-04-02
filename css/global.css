@@ -93,12 +93,6 @@ aside h3
 	float:left;
 }
 
-#main
-{
-	overflow:hidden;
-	margin:-1px 0 0 -1px;
-}
-
 header h1
 {
 	margin:0 0 10px;
