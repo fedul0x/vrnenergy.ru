@@ -14,7 +14,7 @@ ul.dropdown li a {
 /* -- Base style override -- */
 
 ul.dropdown li {
-padding-left: 200px;
+padding-left: 20px;
 }
 
 ul.dropdown li.dir {
