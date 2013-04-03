@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="css/dropdown.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/dropdown.advanced.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+        <link rel="icon" href="css/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="css/img/favicon.ico" type="image/x-icon">
+
         <script type="text/javascript" src="js/jquery.min.js">
 </script>
         <script defer type="text/javascript" src="js/jquery.flexslider.min.js">
@@ -41,37 +44,15 @@ $(function(){
         });
         </script>
         <style rel="stylesheet" type="text/css">
-header{
-            width:800px;
-            float:none;
-            margin:auto;
-        }
-            div.logo{
-                float:left;
-                height:100px;
-                width:100px;
-            }
-            div#main-menu{
-                float:right;
-                padding-top:40px;
-                padding-bottom:40px;
-                font-family: Arial;
-            }
-            ul.dropdown li ul li{ 
-                background-color:#ffffff;
-            }
-            a.dir:hover
-            {
-                border-bottom: 2px solid #eeddaa;
-            }
         </style>
     </head>
     <body class="loading">
-        <header>
+        <div>
+        <header style='display:block;'>
             <div class="logo">
                 <a href="/"><img src="./images/logo.png" alt="КРИВИЧИ"></a>
             </div>
-            <div id="main-menu">
+            <div id="main-menu" >
                 <ul class="dropdown dropdown-horizontal">
                     <li>
                         <a href="./" class="dir">КРИВИЧИ</a>
@@ -125,7 +106,7 @@ header{
                         </ul>
                     </li>
                     <li>
-                        <a href="./" class="dir">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</a>
+                        <a href="./" class="dir">МАТЕРИАЛЫ</a>
                         <ul>
                             <li>
                                 <a href="./">Полезные статьи</a>
@@ -138,7 +119,9 @@ header{
                 </ul>
             </div>
         </header>
-                <div class="flexslider" style="">
+    </div>
+        <div style="background-color:white; float:none; ">
+                <div class="flexslider">
                     <ul class="slides">
                         <li>
                             <img src="images/final_1.png">
@@ -157,34 +140,34 @@ header{
                         </li> -->
                     </ul>
                 </div>
-        <div id="block-content" style='z-index:999;'>
-            dsfdfsdf
-        <article class="data-block-1">
-            <p class='data-title-white'>
+        <div id="blocks-content"> 
+        <article id="data-block-1">
+            <p class='data-title-brown'>
                 НОВОСТИ
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             </p>
         </article>
-        <article class="data-block-2">
+        <article id="data-block-2">
             <p class="data-title-white">
                 ЧАСЫ РАБОТЫ
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
         </article>
-        <article class="data-block-3">
-            <p class="data-title-black">
+        <article id="data-block-3">
+            <p class="data-title-white">
                 КОНТАКТНАЯ ИНФОРМАЦИЯ
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
         </article>
         </div>
-    <br/>
+    </div>
+<footer style='background-color:#746753;'>
 <br/>
 <br/>
 <br/>
@@ -205,17 +188,6 @@ header{
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
+</footer>
     </body>
 </html>

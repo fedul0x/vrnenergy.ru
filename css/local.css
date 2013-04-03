@@ -1,52 +1,120 @@
 @charset "UTF-8";
-/*text divs*/
 
-div#block-content {
+/*Header*/
+header{
+    width:800px;
+    background-color: #886d57;
+    margin:auto;
+}
+
+div.logo{
+    float:left;
+    height:100px;
+    width:100px;
+    padding-top:10px;
+}
+
+div#main-menu{
+    float:right;
+    padding-top:40px;
+    padding-bottom:40px;
+    font-family: Arial;
+}
+ul.dropdown li ul li{ 
+    background-color:#ffffff;
+}
+a.dir {
+	padding-bottom: 2px;
+}
+a.dir:hover
+{
+    /*border-bottom: 2px solid #eeddaa;*/
+}
+
+/*text divs*/
+div#blocks-content {
 	width:900px;
 	margin:auto;
-	margin-top: -150px;
-	z-index:1999;
+	position: relative; 
+	z-index:2;
+	margin-top:-100px;
 }
-
-article.data-block-1
-{
-	z-index:999;
+article#data-block-1, article#data-block-2, article#data-block-3 {
 	float:left;
-	width:250px;
-	background:#564739
+	width:260px;
+	height:190px;
+	padding:15px;
+	margin:2px;
+	font-family:'arial';
+	border:1px solid #000;
 }
-
-article.data-block-2
+article p
 {
-	z-index:999;
-	float:left;
-	width:250px;
-	background:#886d57
+	font-size:18px;
+	font-style: italic; 
+	text-align:justify;
 }
-
-article.data-block-3
+article#data-block-1
 {
-	z-index:999;
-	float:left;
-	width:250px;
 	background:#fff
 }
 
-p.data-title-black
+article#data-block-2
+{
+	background:#886d57
+}
+
+article#data-block-3
+{
+	background:#564739
+}
+
+p.data-title-brown, p.data-title-white, p.data-title-black
+{
+	font-style: normal; 
+	font-size: 22px;
+	padding-bottom:10px;
+	text-align: center;
+	font-weight: bold
+}
+
+p.data-title-brown
 {
 	color:#886d57;
-	font-family:'arial';
-	text-align: center;
 }
 
 p.data-title-white
 {
 	color:#fff;
-	font-family:'arial';
-	text-align: center;
+}
+
+p.data-title-black
+{
+	color:#886d57;
 }
 
 div.flexslider {
 	overflow:hidden; 
+	z-index:1;
 	margin:-1px 0 0 -1px;	
+}
+
+ul.dropdown li ul {
+	display:block;
+	width:200px;
+	padding:0;
+	margin:0;
+	border:1px solid black;
+}
+
+a.dir {
+	font-size: 18px;
+	font-variant: small-caps;
+	font-stretch: ultra-expanded;
+
+}
+
+/*bad rule*/
+ul li a:hover {
+	background-color:#fcf4c2;
 }
